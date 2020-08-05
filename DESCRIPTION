@@ -1,0 +1,10 @@
+Package: ADAPTSdata4
+Type: Package
+Title: ADAPTS Data4
+Version: 0.1.0
+Author: Xinyi Yan
+Maintainer: Xinyi Yan <xinyiy027@gmail.com>
+Description: Data for ADAPTS Vignette#3
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true

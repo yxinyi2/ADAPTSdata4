@@ -1,0 +1,40 @@
+\name{scHenry2.LNCAP}
+\alias{scHenry2.LNCAP}
+\docType{data}
+\title{
+%%   ~~ data name/kind ... ~~
+}
+\description{
+The format is:
+Formal class 'dgCMatrix' [package "Matrix"] with 6 slots
+  ..@ i       : int [1:50627662] 8 26 36 48 76 78 93 98 102 114 ...
+  ..@ p       : int [1:35866] 0 1083 4950 5853 6839 8043 9931 11089 12633 14285 ...
+  ..@ Dim     : int [1:2] 18159 35865
+  ..@ Dimnames:List of 2
+  .. ..$ : chr [1:18159] "OR4F5" "OR4F29" "OR4F16" "SAMD11" ...
+  .. ..$ : chr [1:35865] "Basal Epithelia" "Other" "Luminal Epithelia" "Basal Epithelia" ...
+  ..@ x       : num [1:50627662] 1 1 1 3 2 1 3 1 1 1 ...
+  ..@ factors : list()
+}
+\usage{data("scHenry2.LNCAP")}
+\format{
+  A data frame with 0 observations on the following 2 variables.
+  \describe{
+    \item{\code{x}}{a numeric vector}
+    \item{\code{y}}{a numeric vector}
+  }
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(scHenry2.LNCAP)
+## maybe str(scHenry2.LNCAP) ; plot(scHenry2.LNCAP) ...
+}
+\keyword{datasets}
